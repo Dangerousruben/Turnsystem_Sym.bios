@@ -55,7 +55,7 @@ public:
 	//Destructor
 	virtual ~URound();
 
-	//Sorts the round based on RoundInitiative
+	//Sorts the round based on RoundInitiative in descending order
 	void SortRound();
 
 	//Removes the unit from the turn order
