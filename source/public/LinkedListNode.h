@@ -21,7 +21,7 @@ public:
 
 	//Pointer to the next node in the list
 	UPROPERTY()
-	ULinkedListNode* NextNode;
+	ULinkedListNode* NextNode = NULL;
   
 private:
 
