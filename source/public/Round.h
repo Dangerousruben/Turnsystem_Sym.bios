@@ -33,7 +33,7 @@ struct FUnitRoundInfo
 	{
 		UnitRef = a_UnitRef;
 		RoundInitiative = a_BaseInitiative;
-    HadTurn = a_HadTurn;
+   		HadTurn = a_HadTurn;
 	}
 };
 
