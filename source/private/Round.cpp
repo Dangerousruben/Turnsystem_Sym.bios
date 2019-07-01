@@ -32,7 +32,7 @@ void URound::RemoveUnitFromTurnOrder(AUnitBase* a_Unit)
 		//Checks if the map value is equal to the unit reference given
 		if (iter.UnitRef == a_Unit)
 		{
-			TurnOrderMap.(*iter);
+			TurnOrder.(*iter);
 			SortRound();
 			return;
 		}
